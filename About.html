@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="About.css">
+    <title>Version Controll</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Version Controll</h1>
+    </div>
+    <div class="about">
+        <p>Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later. For the examples in this book you will use software source code as the files being version controlled, though in reality you can do this with nearly any type of file on a computer.</p>
+    </div>
+    <div class="Work">
+        <h2>How does it works:</h2>
+        <p>Version control systems start with a base version of the document and then save just the changes you made at each step of the way. You can think of it as a tape backup that you can rewind, and then fast-forward again. You can also think of it as a tree: at the base is a version of the document that is the trunk of the tree, and as you make changes you create branches in the tree.</p>
+        <p> Here is a simple example of how it works:</p>
+        <ul>
+            <li>You create a document.</li>
+            <li>You make changes to it.</li>
+            <li>Realize you liked the document better 2 hours ago.</li>
+            <li>You can rewind to the version you liked.</li>
+        </ul>
+
+    </div>
+    <div class="Types">
+        <h2>Types of Version Control:</h2>
+        <p>There are three types of version control systems:</p>
+        <ul>
+            <li>Local Version Control Systems</li>
+            <li>Centralized Version Control Systems</li>
+            <li>Distributed Version Control Systems</li>
+        </ul>
+    </div>
+    <div class="Local">
+        <h2>Local Version Control Systems:</h2>
+        <p>Many people start using a version control system by running a local version control system. This type of system maintains different versions of a file in a local database.</p>
+    </div>
+    <div class="Centralized">
+        <h2>Centralized Version Control Systems:</h2>
+        <p>These systems, such as CVS, Subversion, and Perforce, have a single server that contains all the versioned files, and a number of clients that check out files from that central place. </p>
+    </div>
+    <div class="Distributed">
+        <h2>Distributed Version Control Systems:</h2>
+        <p>In a DVCS (such as Git, Mercurial, Bazaar or Darcs), clients don’t just check out the latest snapshot of the files: they fully mirror the repository. Thus if any server dies, and these systems were collaborating via that server, any of the client repositories can be copied back up to the server to restore it. Every clone is really a full backup of all the data.</p>
+    </div>
+    <div class="commond">
+        <h2>Commond:</h2>
+        <p>Here are some common commands for version control:</p>
+        <ul>
+            <li>git init: Initializes a new Git repository. </li>
+            <li>git clone: Creates a local copy of a project that already exists remotely. </li>
+            <li>git add: Stages a change. </li>
+            <li>git commit: Saves the snapshot to the project history and completes the change-tracking process. </li>
+            <li>git status: Shows the status of changes as untracked, modified, or staged. </li>
+            <li>git branch: Lists all the branches in the repository. </li>
+            <li>git merge: Merges lines of development together. </li>
+            <li>git pull: Fetches changes from a remote repository to a local repository. </li>
+            <li>git push: Pushes changes from a local repository to a remote repository. </li>
+        </ul>
+    </div>
+</body>
+</html>
