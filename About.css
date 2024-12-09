@@ -1,0 +1,26 @@
+body{
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 20px;
+    
+}
+.header { 
+    box-shadow: 0 5px 3px rgba(67, 67, 70, 0.747);
+    padding: 10px;
+    text-align: center;
+    font-size: 35px;
+    color: #020f55;
+}
+.about{
+    align-items: center;
+    display: flex;
+}
+.work{
+    align-items: left;
+    display: flex;
+    padding: 20px;
+    font-size: 20px;
+    color: #6b6767;
+
+}
